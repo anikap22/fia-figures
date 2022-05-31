@@ -10,7 +10,10 @@ data for map figures from "A Spatially Explicit, Empirical Estimate of Tree-Base
 Example code for map:
 ```
 ##map of fixed nitrogen (per forest area) rate average in cell
-fn.grid <- readRDS("output/fngrid_new.RDS")
+fn.grid <- readRDS("fngrid_new.RDS")
+lat.list <- readRDS("lat_list.RDS")
+lon.list <- readRDS("lon_list.RDS")
+
 nlev <- 64
 ticks <- 2^(-2:6)
 image.plot(lon.list, lat.list, log(fn.grid+0.1), 
