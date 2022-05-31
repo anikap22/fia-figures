@@ -1,5 +1,5 @@
 # fia-figures
-data for map figures from "A Spatially Explicit, Empirical Estimate of Tree-Based Biological Nitrogen Fixation in Forests of the United States": https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GB006241
+Data for map figures from "A Spatially Explicit, Empirical Estimate of Tree-Based Biological Nitrogen Fixation in Forests of the United States": https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GB006241
 
 ### Figure 2 a-d:
 `fngrid_new.RDS`: N fixation rate per forest area, accretion (a)  
