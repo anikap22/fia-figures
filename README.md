@@ -50,6 +50,6 @@ map('world', regions = 'usa', add = TRUE, col = 'black')
 `pctbio_gr.tif`: Percent N input from SNF per ground area (Tree BNF + Understory BNF) / Total N input (n)  
 
 ### Figure 6 a-b:
-XXXX: Percent non-agricultural N input from tree BNF, accretion (a)  
-XXXX: Percent non-agricultural N input from tree BNF, n demand (b)  
+`N_PCT_tree.tif`: Percent non-agricultural N input from tree BNF, accretion (a)  
+`N_PCT_tree_ndfa.tif`: Percent non-agricultural N input from tree BNF, n demand (b)  
 
