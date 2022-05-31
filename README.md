@@ -7,6 +7,31 @@ data for map figures from "A Spatially Explicit, Empirical Estimate of Tree-Base
 `grn_grid_new.RDS`: N fixation rate per forest area, n demand (c)  
 `grngr_grid_new.RDS`: N fixation rate per ground area, n demand (d)  
 
+Example code for map:
+```
+##map of fixed nitrogen (per forest area) rate average in cell
+nlev <- 64
+ticks <- 2^(-2:6)
+image.plot(lon.list, lat.list, log(fn.grid+0.1), 
+           nlevel = nlev, col = tim.colors(nlev),
+           axis.args = list(at = log(ticks), 
+                            labels = ticks,
+                            cex.axis = 1.5),
+           legend.args = list(text = expression('kg N ha forest'^-1*' yr'^-1), 
+                              side = 4, 
+                              font = 2, 
+                              line = 3.5, 
+                              cex = 1,
+                              mar = 5),
+           xlab = "", ylab = "latitude",
+           ylim = c(latminint-1, 60+1), xlim = c(-140, lonmaxint+1),
+           zlim = c(log(0.1), log(64)))
+title(main = "N Fixation Rate \n Per forest area \n Accretion", 
+      cex.main = 1.5)
+mtext("(a)", font = 2, adj = 0.01, padj = -0.5)
+map('world', regions = 'usa', add = TRUE, col = 'black')
+```
+
 ### Figure 5:
 `dep_fo.tif`: N deposition per forest area (a)  
 `dep_gr.tif`: N deposition per ground area (b)  
