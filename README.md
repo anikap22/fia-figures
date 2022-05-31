@@ -1,5 +1,5 @@
 # fia-figures
-data figures for "A Spatially Explicit, Empirical Estimate of Tree-Based Biological Nitrogen Fixation in Forests of the United States": https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GB006241
+data for map figures from "A Spatially Explicit, Empirical Estimate of Tree-Based Biological Nitrogen Fixation in Forests of the United States": https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GB006241
 
 ### Figure 1 a-c:
 XXXX: N fixing trees in fia (a)  
